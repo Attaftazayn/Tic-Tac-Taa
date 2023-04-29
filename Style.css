@@ -22,7 +22,7 @@ h1 {
 
 h6 {
   font-family: 'Poppins';
-  font-size: 12px;
+  font-size: 10px;
   font-weight: normal;
 }
 
@@ -93,7 +93,7 @@ h6 {
 
 .kaki {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 18%;
   margin-bottom: 0 auto;
 }
 
@@ -112,12 +112,12 @@ h6 {
 .judul1 {
   color: #15c2b9;
   font-family: 'Londrina Shadow';
-  font-size: 42px;
+  font-size: 40px;
   letter-spacing: 0.1em;
 }
 
 .judul2 {
   color: #b50543;
   font-family: 'Vast Shadow';
-  font-size: 47px;
+  font-size: 45px;
 }
