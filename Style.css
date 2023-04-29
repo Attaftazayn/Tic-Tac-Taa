@@ -23,7 +23,7 @@ h1 {
 h6 {
   font-family: 'Poppins';
   font-size: 10px;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .display {
@@ -47,7 +47,6 @@ h6 {
 }
 
 .tile {
-  border: 1px solid #fff;
   min-width: 100px;
   min-height: 100px;
   display: flex;
@@ -56,7 +55,18 @@ h6 {
   font-size: 50px;
   font-family: 'Merienda';
   cursor: pointer;
+  border-right: 1.5px solid #fff;
+  border-bottom: 1.5px solid #fff;
 }
+
+.tile:nth-child(3n) {
+  border-right: none;
+}
+
+.tile:nth-child(6) ~ .tile {
+  border-bottom: none;
+}
+
 
 .playerX {
   color: #15c2b9;
@@ -80,11 +90,12 @@ h6 {
   border: none;
   border-radius: 10px;
   padding: 14px 25px;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   color: #0e141f;
   transition: background-color 1s ease-in-out;
   transition: all 1.2s ease;
+  margin-top: 3%;
 }
 
 #reset:hover {
@@ -95,7 +106,7 @@ h6 {
 
 .kaki {
   text-align: center;
-  margin-top: 18%;
+  margin-top: 14%;
   margin-bottom: 0 auto;
   margin-bottom: 10%;
   font-size: 15px;
