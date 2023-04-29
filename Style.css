@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-family: 'Castoro Titling';
+  font-family: 'Cinzel Decorative';
   letter-spacing: 0.1em;
 }
 
@@ -54,7 +54,7 @@ h6 {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  font-family: 'Castoro Titling';
+  font-family: 'Merienda';
   cursor: pointer;
 }
 
@@ -63,7 +63,7 @@ h6 {
 }
 
 .playerO {
-  color: #96094d;
+  color: #b50543;
 }
 
 .controls {
@@ -87,7 +87,7 @@ h6 {
 }
 
 #reset:hover {
-  background-color: #96094d;
+  background-color: #b50543;
   color: #0e141f;
 }
 
@@ -99,7 +99,7 @@ h6 {
 
 .chat {
   color: #fff;
-  font-family: 'cabin';
+  font-family: 'Cabin';
 }
 
 .aku {
@@ -107,4 +107,17 @@ h6 {
   font-family: 'Poppins';
   font-weight: 900;
   text-decoration: none;
+}
+
+.judul1 {
+  color: #15c2b9;
+  font-family: 'Londrina Shadow';
+  font-size: 42px;
+  letter-spacing: 0.1em;
+}
+
+.judul2 {
+  color: #b50543;
+  font-family: 'Vast Shadow';
+  font-size: 47px;
 }
