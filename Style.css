@@ -28,7 +28,7 @@ h6 {
 
 .display {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -95,6 +95,8 @@ h6 {
   text-align: center;
   margin-top: 18%;
   margin-bottom: 0 auto;
+  margin-bottom: 10%;
+  font-size: 15px;
 }
 
 .chat {
@@ -112,12 +114,12 @@ h6 {
 .judul1 {
   color: #15c2b9;
   font-family: 'Londrina Shadow';
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 0.1em;
 }
 
 .judul2 {
   color: #b50543;
   font-family: 'Vast Shadow';
-  font-size: 45px;
+  font-size: 40px;
 }
