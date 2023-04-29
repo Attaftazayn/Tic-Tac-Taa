@@ -84,11 +84,13 @@ h6 {
   cursor: pointer;
   color: #0e141f;
   transition: background-color 1s ease-in-out;
+  transition: all 1.2s ease;
 }
 
 #reset:hover {
   background-color: #b50543;
   color: #0e141f;
+  transform: scale(0.87)
 }
 
 .kaki {
