@@ -104,6 +104,10 @@ h6 {
   transform: scale(0.87)
 }
 
+#reset:hover i {
+  animation: spin 2s linear infinite;
+}
+
 .kaki {
   text-align: center;
   margin-top: 14%;
@@ -135,4 +139,15 @@ h6 {
   color: #b50543;
   font-family: 'Vast Shadow';
   font-size: 40px;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
